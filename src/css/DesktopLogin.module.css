@@ -1,0 +1,370 @@
+.backgroundDiv,
+.navBarDiv {
+  position: absolute;
+  top: 47px;
+  left: 16px;
+  width: 1768px;
+  height: 98px;
+}
+.backgroundDiv {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 470px;
+  height: 166px;
+}
+.arrowBackIosIcon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.frameDiv {
+  position: absolute;
+  top: 64px;
+  left: 20px;
+}
+.welcomeBackDiv {
+  position: absolute;
+  top: 84px;
+  left: calc(50% - 120px - -0.5px);
+  font-size: 20px;
+  font-family: Press Start 2p;
+  text-align: left;
+  display: inline-block;
+}
+.usernameB {
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #042a50;
+  text-align: center;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #042a50;
+  box-sizing: border-box;
+  width: 335px;
+  height: 40px;
+}
+.carlospereiraB {
+  position: absolute;
+  top: 12px;
+  left: 2px;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #042a50;
+  text-align: center;
+}
+.groupDiv {
+  position: relative;
+  width: 335px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.frameDiv3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv3 > * + * {
+  margin-top: 5px;
+}
+.groupInput {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  width: 335px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.btnCheckIcon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+}
+.forgotPassword,
+.rememberMe {
+  position: absolute;
+  top: 0;
+  left: 16.34px;
+  font-size: 12px;
+  display: flex;
+  font-family: Nunito;
+  color: #042a50;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 82.73px;
+}
+.forgotPassword {
+  text-decoration: underline;
+  left: 232.87px;
+  font-weight: 700;
+  color: #28888c;
+  width: 102.13px;
+}
+.groupDiv1 {
+  position: relative;
+  width: 335px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.frameDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv2 > * + * {
+  margin-top: 10px;
+}
+.lOGINB {
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #fff;
+  text-align: center;
+}
+.frameDiv5 {
+  border-radius: 3px;
+  background: linear-gradient(90.53deg, #042a50, #28888c);
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.frameButton,
+.frameForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameForm > * + * {
+  margin-top: 20px;
+}
+.oRB {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 335px;
+}
+.image2Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+.continueWithGoogle {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #000;
+  text-align: center;
+}
+.groupDiv2 {
+  position: absolute;
+  top: 10px;
+  left: 94px;
+  width: 147px;
+  height: 16px;
+}
+.frameButton1 {
+  cursor: pointer;
+  border: 2px solid #042a50;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 335px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.continueWithFacebook {
+  position: absolute;
+  top: 3px;
+  left: 28px;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #000;
+  text-align: center;
+}
+.groupDiv3,
+.image3Icon {
+  position: absolute;
+  height: 22px;
+}
+.image3Icon {
+  top: 0;
+  left: 0;
+  width: 22px;
+  object-fit: cover;
+}
+.groupDiv3 {
+  top: 7px;
+  left: 86px;
+  width: 163px;
+}
+.frameDiv1 {
+  position: absolute;
+  top: calc(50% - 176px - 18px);
+  left: calc(50% - 167.5px - 0px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv1 > * + * {
+  margin-top: 20px;
+}
+.dontHaveAccount,
+.signUpA {
+  position: relative;
+  display: inline-block;
+}
+.signUpA {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #28888c;
+}
+.frameDiv7 {
+  position: absolute;
+  top: 517px;
+  left: 107px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #000;
+}
+.frameDiv7 > * + * {
+  margin-left: 6px;
+}
+.icon,
+.labelDiv {
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.labelDiv {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  display: inline-block;
+}
+.navigationItem {
+  width: 68px;
+  display: flex;
+  padding: 4px 0;
+  justify-content: center;
+  color: #135169;
+}
+.navigationItem,
+.navigationItem1,
+.navigationItem2 {
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+.navigationItem1 {
+  width: 92px;
+  display: flex;
+  padding: 8px 2px;
+  justify-content: center;
+}
+.navigationItem2 {
+  width: 84px;
+  padding: 4px 0;
+}
+.buttonsDiv,
+.navigationItem2,
+.navigationItem3 {
+  display: flex;
+  justify-content: center;
+}
+.navigationItem3 {
+  width: 91px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 4px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+.buttonsDiv {
+  position: absolute;
+  bottom: 9px;
+  left: calc(50% - 187px - -0.5px);
+  width: 374px;
+  height: 61px;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 10px;
+  color: #a2a2a2;
+  font-family: Graphik;
+}
+.loginWhiteDiv {
+  position: absolute;
+  top: calc(50% - 349px - 0px);
+  left: calc(50% - 187.5px - 0.5px);
+  border-radius: 20px;
+  background-color: #eff4f5;
+  width: 375px;
+  height: 698px;
+  overflow: hidden;
+}
+.desktopLoginDiv,
+.logInDiv {
+  background-color: #fff;
+  height: 900px;
+  overflow: hidden;
+}
+.logInDiv {
+  position: absolute;
+  top: calc(50% - 450px - 0px);
+  left: calc(50% - 700px - 0px);
+  width: 1400px;
+}
+.desktopLoginDiv {
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #042a50;
+  font-family: Nunito;
+}

@@ -1,0 +1,326 @@
+.backgroundDiv,
+.navBarDiv {
+  position: absolute;
+  top: 47px;
+  left: 16px;
+  width: 1768px;
+  height: 98px;
+}
+.backgroundDiv {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 749px;
+  height: 1052px;
+}
+.arrowBackIosIcon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.welcomeToMegaWallet,
+.yourBestPlaceToSaveYourE {
+  position: relative;
+  display: inline-block;
+}
+.yourBestPlaceToSaveYourE {
+  font-size: 10px;
+  font-family: Nunito;
+}
+.frameDiv {
+  position: absolute;
+  top: 83px;
+  left: 30px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 13px;
+  font-family: Press Start 2p;
+}
+.frameDiv > * + * {
+  margin-top: 5px;
+}
+.rectangleInput {
+  border: 1px solid #000;
+  background-color: #fff;
+  position: relative;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 335px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.frameDiv4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv4 > * + * {
+  margin-top: 5px;
+}
+.frameInput {
+  border: 0;
+  background-color: transparent;
+}
+.frameDiv3,
+.frameInput,
+.frameSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv3 > * + * {
+  margin-top: 10px;
+}
+.sIGNUPB {
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #fff;
+  text-align: center;
+}
+.frameDiv5 {
+  border-radius: 3px;
+  background: linear-gradient(90.53deg, #042a50, #28888c);
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.frameButton,
+.frameDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv2 > * + * {
+  margin-top: 20px;
+}
+.oRB {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 335px;
+}
+.image2Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+.signUpWithGoogle {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #000;
+  text-align: center;
+}
+.groupDiv {
+  position: absolute;
+  top: 10px;
+  left: 97px;
+  width: 140px;
+  height: 16px;
+}
+.frameButton1 {
+  cursor: pointer;
+  border: 2px solid #042a50;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 335px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.signUpWithFacebook {
+  position: absolute;
+  top: 3px;
+  left: 28px;
+  font-size: 12px;
+  display: inline-block;
+  font-family: Nunito;
+  color: #000;
+  text-align: center;
+}
+.groupDiv1,
+.image3Icon {
+  position: absolute;
+  height: 22px;
+}
+.image3Icon {
+  top: 0;
+  left: 0;
+  width: 22px;
+  object-fit: cover;
+}
+.groupDiv1 {
+  top: 7px;
+  left: 90px;
+  width: 155px;
+}
+.frameDiv6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv6 > * + * {
+  margin-top: 10px;
+}
+.frameDiv1 {
+  position: absolute;
+  top: 155px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv1 > * + * {
+  margin-top: 20px;
+}
+.logInA {
+  text-decoration: underline;
+  position: relative;
+  font-weight: 700;
+  color: #28888c;
+  display: inline-block;
+}
+.frameDiv7 {
+  position: absolute;
+  top: 562px;
+  left: 116px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.frameDiv7 > * + * {
+  margin-left: 6px;
+}
+.icon,
+.labelDiv {
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.labelDiv {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  display: inline-block;
+}
+.navigationItem {
+  width: 68px;
+  display: flex;
+  padding: 4px 0;
+  justify-content: center;
+  color: #135169;
+}
+.navigationItem,
+.navigationItem1,
+.navigationItem2 {
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+.navigationItem1 {
+  width: 92px;
+  display: flex;
+  padding: 8px 2px;
+  justify-content: center;
+}
+.navigationItem2 {
+  width: 84px;
+  padding: 4px 0;
+}
+.buttonsDiv,
+.navigationItem2,
+.navigationItem3 {
+  display: flex;
+  justify-content: center;
+}
+.navigationItem3 {
+  width: 91px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 4px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+.buttonsDiv {
+  position: absolute;
+  bottom: 6px;
+  left: calc(50% - 187px - 0.5px);
+  width: 374px;
+  height: 61px;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 10px;
+  color: #a2a2a2;
+  font-family: Graphik;
+}
+.signUpWhiteDiv {
+  position: absolute;
+  top: calc(50% - 349px - 0px);
+  left: calc(50% - 187.5px - 0.5px);
+  border-radius: 20px;
+  background-color: #eff4f5;
+  width: 375px;
+  height: 698px;
+  overflow: hidden;
+}
+.desktopSignUpDiv,
+.logInDiv {
+  background-color: #fff;
+  height: 900px;
+  overflow: hidden;
+}
+.logInDiv {
+  position: absolute;
+  top: calc(50% - 450px - 0px);
+  left: calc(50% - 701px - 1px);
+  width: 1402px;
+}
+.desktopSignUpDiv {
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #042a50;
+  font-family: Nunito;
+}

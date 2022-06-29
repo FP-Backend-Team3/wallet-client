@@ -1,0 +1,203 @@
+.navBarDiv {
+  position: absolute;
+  top: 47px;
+  left: 16px;
+  width: 1768px;
+  height: 98px;
+}
+.b {
+  font-family: Nunito;
+}
+.helloDiv1 {
+  position: absolute;
+  top: calc(50% - 12.5px - 7.5px);
+  left: calc(50% - 50px - 5.5px);
+  display: inline-block;
+}
+.bestPlaceToWriteYourDaily {
+  position: absolute;
+  top: calc(50% - 7px - -13px);
+  left: calc(50% - 172.5px - 0px);
+  font-size: 10px;
+  font-family: Nunito;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 345px;
+}
+.helloDiv {
+  position: absolute;
+  top: calc(50% - 20px - -113px);
+  left: calc(50% - 172.5px - -5px);
+  width: 345px;
+  height: 40px;
+}
+.lOGINB {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.frameDiv1,
+.frameDiv3,
+.frameDiv4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv3 {
+  border-radius: 3px;
+  background: linear-gradient(90.53deg, #042a50, #28888c);
+  width: 335px;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.frameDiv1,
+.frameDiv4 {
+  flex-direction: column;
+}
+.frameDiv4 {
+  border-radius: 3px;
+  background-color: #ece9e9;
+  border: 2px solid #042a50;
+  box-sizing: border-box;
+  position: relative;
+  width: 335px;
+  flex-direction: row;
+  padding: 10px;
+  color: #042a50;
+}
+.frameDiv {
+  position: absolute;
+  top: 519px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #ece9e9;
+  font-family: Nunito;
+}
+.frameDiv > * + * {
+  margin-top: 10px;
+}
+.mEGAWALLETP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.mEGAWALLETDiv {
+  position: absolute;
+  top: 62px;
+  left: calc(50% - 138.5px - -6px);
+  font-size: 25px;
+  letter-spacing: -0.02em;
+  color: #000;
+  display: inline-block;
+  width: 277px;
+  height: 53px;
+}
+.icon,
+.labelDiv {
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.labelDiv {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  display: inline-block;
+}
+.navigationItem {
+  width: 68px;
+  display: flex;
+  padding: 4px 0;
+  justify-content: center;
+  color: #135169;
+}
+.navigationItem,
+.navigationItem1,
+.navigationItem2 {
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+.navigationItem1 {
+  width: 92px;
+  display: flex;
+  padding: 8px 2px;
+  justify-content: center;
+}
+.navigationItem2 {
+  width: 84px;
+  padding: 4px 0;
+}
+.buttonsDiv,
+.navigationItem2,
+.navigationItem3 {
+  display: flex;
+  justify-content: center;
+}
+.navigationItem3 {
+  width: 91px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 4px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+.buttonsDiv {
+  position: absolute;
+  bottom: 5px;
+  left: calc(50% - 187px - -5.5px);
+  width: 374px;
+  height: 61px;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 10px;
+  color: #a2a2a2;
+  font-family: Graphik;
+}
+.logoIcon,
+.splassWhiteDiv {
+  position: absolute;
+  top: calc(50% - 90px - 90px);
+  left: calc(50% - 93px - -0.5px);
+  width: 186px;
+  height: 180px;
+  overflow: hidden;
+}
+.splassWhiteDiv {
+  top: calc(50% - 349px - 0px);
+  left: calc(50% - 187.5px - 0.5px);
+  border-radius: 20px;
+  background-color: #eff4f5;
+  width: 375px;
+  height: 698px;
+}
+.desktopLandingAppPage,
+.logInDiv {
+  background-color: #fff;
+  height: 900px;
+  overflow: hidden;
+}
+.logInDiv {
+  position: absolute;
+  top: calc(50% - 450px - 0px);
+  left: calc(50% - 701px - 1px);
+  width: 1402px;
+}
+.desktopLandingAppPage {
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #042a50;
+  font-family: Press Start 2p;
+}
